@@ -1,0 +1,86 @@
+import React from "react";
+import "./App.css";
+
+function App() {
+return (
+<div className="App">
+
+  <header>
+    <h1>SAMIR FAMILY SALON</h1>
+    <p>Style • Beauty • Confidence</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home" className="hero">
+    <h1>Welcome to Samir Family Salon</h1>
+    <p>Your Style, Our Passion</p>
+    <button>Explore Services</button>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+
+    <div className="cards">
+      <div className="card">
+        <h3>Men Haircut</h3>
+        <p>₹150</p>
+      </div>
+
+      <div className="card">
+        <h3>Women Haircut</h3>
+        <p>₹300</p>
+      </div>
+
+      <div className="card">
+        <h3>Kids Haircut</h3>
+        <p>₹100</p>
+      </div>
+
+      <div className="card">
+        <h3>Hair Styling</h3>
+        <p>₹250</p>
+      </div>
+
+      <div className="card">
+        <h3>Hair Spa</h3>
+        <p>₹500</p>
+      </div>
+
+      <div className="card">
+        <h3>Hair Coloring</h3>
+        <p>₹600</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Samir Family Salon provides professional
+      hair cutting, styling and beauty services
+      for the whole family.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Visit Samir Family Salon Today!</p>
+    <p>Phone: +91 XXXXXXXXXX</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Samir Family Salon</p>
+  </footer>
+
+</div>
+
+);
+}
+
+export default App;
